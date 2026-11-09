@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.giinformatica.com/sitemap.xml
+Sitemap: https://www.giinformatica.com.ar/sitemap.xml

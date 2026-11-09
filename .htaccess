@@ -1,9 +1,9 @@
 # Solo para Hostinger / Apache (GitHub Pages lo ignora)
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://www.giinformatica.com/$1 [R=301,L]
-RewriteCond %{HTTP_HOST} ^giinformatica\.com$ [NC]
-RewriteRule ^(.*)$ https://www.giinformatica.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.giinformatica.com.ar/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^giinformatica\.com\.ar$ [NC]
+RewriteRule ^(.*)$ https://www.giinformatica.com.ar/$1 [R=301,L]
 ErrorDocument 404 /404.html
 Options -Indexes
 
